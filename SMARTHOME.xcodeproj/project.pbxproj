@@ -14,6 +14,10 @@
 		11E9B5402CF5E5D7004BC231 /* SMARTHOMETests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9B53F2CF5E5D7004BC231 /* SMARTHOMETests.swift */; };
 		11E9B54A2CF5E5D7004BC231 /* SMARTHOMEUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9B5492CF5E5D7004BC231 /* SMARTHOMEUITests.swift */; };
 		11E9B54C2CF5E5D7004BC231 /* SMARTHOMEUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9B54B2CF5E5D7004BC231 /* SMARTHOMEUITestsLaunchTests.swift */; };
+		11E9B5592CF5E601004BC231 /* SmartHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9B5582CF5E601004BC231 /* SmartHome.swift */; };
+		11E9B55B2CF5E63F004BC231 /* Lighting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9B55A2CF5E63F004BC231 /* Lighting.swift */; };
+		11E9B55D2CF5E64C004BC231 /* Audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9B55C2CF5E64C004BC231 /* Audio.swift */; };
+		11E9B55F2CF5E659004BC231 /* Heating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 11E9B55E2CF5E659004BC231 /* Heating.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +49,10 @@
 		11E9B5452CF5E5D7004BC231 /* SMARTHOMEUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SMARTHOMEUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		11E9B5492CF5E5D7004BC231 /* SMARTHOMEUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMARTHOMEUITests.swift; sourceTree = "<group>"; };
 		11E9B54B2CF5E5D7004BC231 /* SMARTHOMEUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMARTHOMEUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		11E9B5582CF5E601004BC231 /* SmartHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartHome.swift; sourceTree = "<group>"; };
+		11E9B55A2CF5E63F004BC231 /* Lighting.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lighting.swift; sourceTree = "<group>"; };
+		11E9B55C2CF5E64C004BC231 /* Audio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Audio.swift; sourceTree = "<group>"; };
+		11E9B55E2CF5E659004BC231 /* Heating.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Heating.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 			children = (
 				11E9B52D2CF5E5D5004BC231 /* SMARTHOMEApp.swift */,
 				11E9B52F2CF5E5D5004BC231 /* ContentView.swift */,
+				11E9B5582CF5E601004BC231 /* SmartHome.swift */,
+				11E9B55A2CF5E63F004BC231 /* Lighting.swift */,
+				11E9B55C2CF5E64C004BC231 /* Audio.swift */,
+				11E9B55E2CF5E659004BC231 /* Heating.swift */,
 				11E9B5312CF5E5D7004BC231 /* Assets.xcassets */,
 				11E9B5332CF5E5D7004BC231 /* SMARTHOME.entitlements */,
 				11E9B5342CF5E5D7004BC231 /* Preview Content */,
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				11E9B55F2CF5E659004BC231 /* Heating.swift in Sources */,
 				11E9B5302CF5E5D5004BC231 /* ContentView.swift in Sources */,
+				11E9B5592CF5E601004BC231 /* SmartHome.swift in Sources */,
 				11E9B52E2CF5E5D5004BC231 /* SMARTHOMEApp.swift in Sources */,
+				11E9B55B2CF5E63F004BC231 /* Lighting.swift in Sources */,
+				11E9B55D2CF5E64C004BC231 /* Audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
